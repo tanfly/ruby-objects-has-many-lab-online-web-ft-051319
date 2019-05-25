@@ -8,7 +8,7 @@ class Post
   def initialize(title)
     @title == title
     @@post_count += 1
-  
+    @@all << post
    end
    
    def self.post_count 
