@@ -19,4 +19,7 @@ class Post
     @@all 
   end
   
+  def author_name 
+    
+  
 end 
