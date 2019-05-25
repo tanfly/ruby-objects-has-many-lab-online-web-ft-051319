@@ -11,9 +11,11 @@ class Post
     @@all << self
    end
    
-   def self.post_count 
+  def self.post_count 
     @@post_count
   end
+  
+  def self.all
     
   
 end 
