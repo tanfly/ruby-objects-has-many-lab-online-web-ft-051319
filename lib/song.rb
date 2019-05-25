@@ -7,6 +7,7 @@ class Song
   def initialize(name)
     @name = name
     @@song_count += 1 
+    @@all << self
   end
   
   def self.song_count 
